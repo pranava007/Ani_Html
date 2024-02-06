@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      input[type="checkbox"] {
+        display: none;
+      }
+
+    
+
+      /* input[type="checkbox"] + label {
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        background-color: #57595b;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      } */
+
+      input[type="checkbox"]:checked + label + .slide {
+        max-height: 5000px; /* Set a sufficiently large value to accommodate your content */
+        transition: max-height 0.5s ease-out;
+        width: 100%;
+      }
+
+      .slide {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        /* background-color: rgb(234, 226, 226); */
+      }
+
+      p {
+        margin: 0;
+        width: 1450px;
+      }
+
+      /* test */
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      /* input[type="checkbox"] + label {
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        background-color: #57595b;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      } */
+
+      
+      input[type="checkbox"]:checked + label + .first {
+        max-height: 5000px; /* Set a sufficiently large value to accommodate your content */
+        transition: max-height 0.5s ease-out;
+        /* width: 100%; */
+      }
+
+      .first {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        /* background-color: rgb(234, 226, 226); */
+      }
+
+      p {
+        margin: 0;
+        width: 1450px;
+      }
+
+    </style>
+  </head>
+ 
+  <body>
+
+    <div style="background-color: rgb(212, 217, 215); margin: 5px; padding: 20px; border-radius: 5px; ">
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"><strong>+ Question 1</strong></label>
+
+      <div class="slide">
+        <br>
+      
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+        </p>
+      </div>
+    </div>
+
+
+    <div style="background-color: rgb(212, 217, 215); margin: 5px; padding: 20px; border-radius: 5px; ">
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"><strong>+ Question 2</strong></label>
+
+      <div class="first">
+       
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+        </p>
+      </div>
+    </div>
+ 
+
+    
+    <div style="background-color: rgb(212, 217, 215); margin: 5px; padding: 20px; border-radius: 5px; ">
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"><strong>+ Question 3</strong></label>
+
+      <div class="slide">
+      
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+          doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+          asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+          fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+          corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+          perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+          Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+          rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+          aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+          repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+          inventore, fugit quae aliquam ad!.
+        </p>
+      </div>
+    </div>
+
+
+
+<div style="background-color: rgb(212, 217, 215); margin: 5px; padding: 20px; border-radius: 5px; ">
+  <input type="checkbox" id="toggle" />
+  <label for="toggle"><strong>+ Question 4</strong></label>
+
+  <div class="slide">
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+    </p>
+  </div>
+</div>
+
+
+
+
+<div style="background-color: rgb(212, 217, 215); margin: 5px; padding: 20px; border-radius: 5px; ">
+  <input type="checkbox" id="toggle" />
+  <label for="toggle"><strong>+ Question 5</strong></label>
+
+  <div class="slide">
+  
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ex
+      doloremque! Repudiandae quae veniam corporis? Optio qui repellendus
+      asperiores rem, quaerat nesciunt perspiciatis ipsam quasi, inventore,
+      fugit quae aliquam ad!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Rem, ex doloremque! Repudiandae quae veniam
+      corporis? Optio qui repellendus asperiores rem, quaerat nesciunt
+      perspiciatis ipsam quasi, inventore, fugit quae aliquam ad!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rem, ex doloremque!
+      Repudiandae quae veniam corporis? Optio qui repellendus asperiores
+      rem, quaerat nesciunt perspiciatis ipsam quasi, inventore, fugit quae
+      aliquam ad!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Rem, ex doloremque! Repudiandae quae veniam corporis? Optio qui
+      repellendus asperiores rem, quaerat nesciunt perspiciatis ipsam quasi,
+      inventore, fugit quae aliquam ad!.
+    </p>
+  </div>
+</div>
+
+
+
+     
+  </body>
+</html>
